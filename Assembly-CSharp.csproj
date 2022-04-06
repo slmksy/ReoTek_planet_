@@ -56,13 +56,17 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Code\PlanetGenerator.cs" />
-    <Compile Include="Assets\Code\IPlanet.cs" />
-    <Compile Include="Assets\Code\Planet.cs" />
-    <Compile Include="Assets\Code\BasePlanet.cs" />
-    <Compile Include="Assets\Code\SatellitePlanet.cs" />
-    <Compile Include="Assets\Code\PlanetController.cs" />
-    <Compile Include="Assets\Code\PlanetModel.cs" />
+    <Compile Include="Assets\Code\Controller\Colors.cs" />
+    <Compile Include="Assets\Code\SceneArea\Planet.cs" />
+    <Compile Include="Assets\Code\SceneArea\BasePlanet.cs" />
+    <Compile Include="Assets\Code\Controller\CameraRotater.cs" />
+    <Compile Include="Assets\Code\SceneArea\IPlanet.cs" />
+    <Compile Include="Assets\Code\Controller\SceneEventController.cs" />
+    <Compile Include="Assets\Code\SceneArea\SatellitePlanet.cs" />
+    <Compile Include="Assets\Code\Controller\PlanetController.cs" />
+    <Compile Include="Assets\Code\Model\PlanetModel.cs" />
+    <Compile Include="Assets\Code\SceneArea\SceneManager.cs" />
+    <Compile Include="Assets\Code\Controller\ColliderDetector.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
